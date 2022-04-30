@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Telex&display=swap');
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#main-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 55vw;
+    height: 100vh;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+#logo{
+    width: 180px;
+    padding-bottom: 60px;
+}
+
+#main-right > h1{
+    font-size: 55px;
+}
+
+#title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+#title-strong{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#main-right > p{
+    font-family: 'Telex', sans-serif;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#submit{
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+}
+
+#input{
+    height: 8vh;
+    padding: 20px 140px 20px 30px;
+    border-radius: 28px;
+    box-shadow: 0.2px 0.2px 2px black;
+    cursor: auto;
+}
+
+#input::placeholder{
+    font-family: 'Telex', sans-serif;
+    font-weight: 200;
+    color: rgb(130, 136, 136);
+}
+
+#button{
+    position: absolute;
+    align-self: center;
+    padding-top: 6.2px;
+    padding-bottom: 6px;
+    left: 334px;
+    width: 8vw;
+    background: rgb(145, 212, 214);
+    border-radius: 28px;
+    box-shadow: 0.2px 0.2px 4px rgb(130, 192, 196);
+    cursor: pointer;
+
+}
+
+#img{
+    align-self: center;
+    width: 50px;
+    cursor: pointer;
+}
+
+#main-left{
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#photograpy{
+    height: 100vh;
+}
+
+#button:hover{
+    background: rgb(98, 192, 199);
+}
